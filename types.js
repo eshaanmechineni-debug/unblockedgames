@@ -1,2 +1,2 @@
 
-// Use types.ts instead
+export const CATEGORIES = [];

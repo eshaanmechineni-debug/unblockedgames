@@ -1,2 +1,2 @@
 
-// Use App.tsx instead
+export default function Dummy() { return null; }

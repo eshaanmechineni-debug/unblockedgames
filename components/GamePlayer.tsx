@@ -1,13 +1,12 @@
 
 import React, { useState } from 'react';
-import { Game } from '../types';
+import { Game } from '../types.ts';
 
 interface GamePlayerProps {
   game: Game;
   onClose: () => void;
 }
 
-// Fixed: Added GamePlayerProps interface and React.FC type
 const GamePlayer: React.FC<GamePlayerProps> = ({ game, onClose }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
 

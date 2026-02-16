@@ -1,2 +1,2 @@
 
-// Use GamePlayer.tsx instead
+export default function Dummy() { return null; }

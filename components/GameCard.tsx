@@ -1,13 +1,12 @@
 
 import React from 'react';
-import { Game } from '../types';
+import { Game } from '../types.ts';
 
 interface GameCardProps {
   game: Game;
   onClick: (game: Game) => void;
 }
 
-// Fixed: Explicitly typed the component with React.FC<GameCardProps> to correctly handle React-reserved props like 'key'
 const GameCard: React.FC<GameCardProps> = ({ game, onClick }) => {
   return (
     <div 

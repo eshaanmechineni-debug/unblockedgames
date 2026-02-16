@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { CATEGORIES, Game } from './types';
-import GameCard from './components/GameCard';
-import GamePlayer from './components/GamePlayer';
+import { CATEGORIES } from './types.ts';
+import type { Game } from './types.ts';
+import GameCard from './components/GameCard.tsx';
+import GamePlayer from './components/GamePlayer.tsx';
 
 const App = () => {
-  // Fixed: Added proper TypeScript generic types to useState hooks
   const [games, setGames] = useState<Game[]>([]);
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const [activeCategory, setActiveCategory] = useState<string>('All');
