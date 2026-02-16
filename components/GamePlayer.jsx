@@ -1,1 +1,1 @@
-// This file is deprecated. Component is provided by GamePlayer.tsx.
+// Deprecated: Using GamePlayer.tsx directly via explicit extensions

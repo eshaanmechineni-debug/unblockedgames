@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Game } from '../types.ts';
 
@@ -7,7 +6,7 @@ interface GamePlayerProps {
   onClose: () => void;
 }
 
-const GamePlayer: React.FC<GamePlayerProps> = ({ game, onClose }) => {
+export default function GamePlayer({ game, onClose }: GamePlayerProps) {
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   const toggleFullscreen = () => {
@@ -89,6 +88,4 @@ const GamePlayer: React.FC<GamePlayerProps> = ({ game, onClose }) => {
       </div>
     </div>
   );
-};
-
-export default GamePlayer;
+}

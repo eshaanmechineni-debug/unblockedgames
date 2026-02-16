@@ -5,7 +5,7 @@ import type { Game } from './types.ts';
 import GameCard from './components/GameCard.tsx';
 import GamePlayer from './components/GamePlayer.tsx';
 
-const App = () => {
+export default function App() {
   const [games, setGames] = useState<Game[]>([]);
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const [activeCategory, setActiveCategory] = useState<string>('All');
@@ -94,7 +94,8 @@ const App = () => {
                 </p>
                 <div className="flex gap-4">
                   <button 
-                    onClick={() => setSelectedGame(games[0])}
+                    // Added safety check for games[0] to prevent setting state to undefined
+                    onClick={() => games.length > 0 && setSelectedGame(games[0])}
                     className="bg-white text-slate-950 px-8 py-3 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition-all transform hover:-translate-y-1"
                   >
                     Play Now
@@ -223,6 +224,4 @@ const App = () => {
       </footer>
     </div>
   );
-};
-
-export default App;
+}

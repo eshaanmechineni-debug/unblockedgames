@@ -1,1 +1,1 @@
-// This file is deprecated. Types are provided by types.ts.
+// Deprecated: Using types.ts directly via explicit extensions

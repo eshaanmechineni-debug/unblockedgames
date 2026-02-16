@@ -2,12 +2,14 @@
 import React from 'react';
 import { Game } from '../types.ts';
 
+// Added key to GameCardProps to satisfy strict type checking when the component is used in a map within JSX
 interface GameCardProps {
   game: Game;
   onClick: (game: Game) => void;
+  key?: React.Key;
 }
 
-const GameCard: React.FC<GameCardProps> = ({ game, onClick }) => {
+export default function GameCard({ game, onClick }: GameCardProps) {
   return (
     <div 
       onClick={() => onClick(game)}
@@ -27,7 +29,7 @@ const GameCard: React.FC<GameCardProps> = ({ game, onClick }) => {
         </div>
       )}
 
-      <div className="p-4 bg-gradient-to-t from-slate-900 to-slate-800/50">
+      <div className="p-4 bg-gradient-to-t from-slate-950 to-slate-900/50">
         <h3 className="text-lg font-bold text-slate-100 mb-1 group-hover:text-blue-400 transition-colors">
           {game.title}
         </h3>
@@ -45,6 +47,4 @@ const GameCard: React.FC<GameCardProps> = ({ game, onClick }) => {
       </div>
     </div>
   );
-};
-
-export default GameCard;
+}

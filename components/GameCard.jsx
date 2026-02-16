@@ -1,1 +1,1 @@
-// This file is deprecated. Component is provided by GameCard.tsx.
+// Deprecated: Using GameCard.tsx directly via explicit extensions
