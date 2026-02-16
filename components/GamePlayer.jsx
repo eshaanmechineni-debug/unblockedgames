@@ -1,2 +1,1 @@
-
-export default function Dummy() { return null; }
+// This file is deprecated. Component is provided by GamePlayer.tsx.

@@ -1,2 +1,1 @@
-
-export const CATEGORIES = [];
+// This file is deprecated. Types are provided by types.ts.
