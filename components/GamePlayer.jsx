@@ -1,0 +1,2 @@
+
+// Use GamePlayer.tsx instead

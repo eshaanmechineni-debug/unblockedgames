@@ -1,0 +1,71 @@
+
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "The classic mathematical tile-sliding puzzle game. Reach the 2048 tile!",
+    "thumbnail": "https://picsum.photos/seed/2048/400/250",
+    "iframeUrl": "https://play2048.co/",
+    "category": "Puzzle",
+    "isPopular": true
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "description": "Fast-paced puzzle game inspired by Tetris but played on a hexagon.",
+    "thumbnail": "https://picsum.photos/seed/hextris/400/250",
+    "iframeUrl": "https://hextris.io/",
+    "category": "Puzzle",
+    "isPopular": true
+  },
+  {
+    "id": "paperio2",
+    "title": "Paper.io 2",
+    "description": "Conquer as much territory as possible and beat your competition.",
+    "thumbnail": "https://picsum.photos/seed/paperio/400/250",
+    "iframeUrl": "https://paper-io.com/",
+    "category": "Action"
+  },
+  {
+    "id": "retrobowl",
+    "title": "Retro Bowl",
+    "description": "The perfect game for the armchair quarterback to prove a point.",
+    "thumbnail": "https://picsum.photos/seed/retrobowl/400/250",
+    "iframeUrl": "https://game316009.konggames.com/gamefile/316009/0/1/index.html",
+    "category": "Sports",
+    "isPopular": true
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "Drive a ball in the 3D running game in Slope Game. Control is simple!",
+    "thumbnail": "https://picsum.photos/seed/slope/400/250",
+    "iframeUrl": "https://slopegame.online/",
+    "category": "Arcade"
+  },
+  {
+    "id": "cookieclicker",
+    "title": "Cookie Clicker",
+    "description": "The original idle game where you bake cookies to rule the universe.",
+    "thumbnail": "https://picsum.photos/seed/cookies/400/250",
+    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/",
+    "category": "Casual",
+    "isPopular": true
+  },
+  {
+    "id": "drift-hunters",
+    "title": "Drift Hunters",
+    "description": "A realistic drifting game with awesome cars and tuning options.",
+    "thumbnail": "https://picsum.photos/seed/drift/400/250",
+    "iframeUrl": "https://www.drift-hunters.com/",
+    "category": "Sports"
+  },
+  {
+    "id": "tetris",
+    "title": "Classic Tetris",
+    "description": "The world-famous puzzle game that everyone knows and loves.",
+    "thumbnail": "https://picsum.photos/seed/tetris/400/250",
+    "iframeUrl": "https://tetris.com/play-tetris",
+    "category": "Puzzle"
+  }
+]

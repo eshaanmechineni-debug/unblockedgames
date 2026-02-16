@@ -1,0 +1,2 @@
+
+// Use GameCard.tsx instead
